@@ -74,7 +74,7 @@ $(function() {
             })
           })
           $(document).click(function(e) {
-            if(!$(e.target).closest(".modal").length && !$(e.target).is(".modal button")) {
+            if(!$(e.target).closest(".modal").length) {
               $(".overlay").remove()
             }
           })
